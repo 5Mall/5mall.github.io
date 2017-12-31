@@ -4,7 +4,7 @@ title:      " Django Serializers高级用法之动态修改Fields参数"
 subtitle:   " \"Belongs to Python\""
 date:       2017-12-29 16:58:00
 author:     "小五"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/home_bg.jpeg"
 tags:
     - Python
 ---

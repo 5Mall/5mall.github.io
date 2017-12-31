@@ -4,7 +4,7 @@ title:      "【笔记】Django Model类下，Field字段中，choice属性有�
 subtitle:   " \"Belongs to Python\""
 date:       2017-12-26 20:12:00
 author:     "小五"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/home_bg.jpeg"
 tags:
     - Python
 ---

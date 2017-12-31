@@ -4,7 +4,7 @@ title:      "颜色渐变<gradient>标签之坑爹的 @android:color/transparent
 subtitle:   " \"Belongs to Android\""
 date:       2017-12-21 11:30:00
 author:     "小五"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/home_bg2.jpeg"
 tags:
     - Android
 ---

@@ -4,7 +4,7 @@ title:      " Android Studio之神奇魔法Live Templates，让编码从此飞�
 subtitle:   " \"Belongs to Android\""
 date:       2017-01-13 18:22:00
 author:     "小五"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/home_bg2.jpeg"
 tags:
     - Android
 ---

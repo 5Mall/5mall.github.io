@@ -4,7 +4,7 @@ title:      "什么？！Github也可以用来搭建个人Maven仓库？"
 subtitle:   " \"Belongs to 教程\""
 date:       2017-12-15 17:00:00
 author:     "小五"
-header-img: "img/home_bg.jpg"
+header-img: "img/home_bg2.jpeg"
 tags:
     - 教程
 ---
