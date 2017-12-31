@@ -2,7 +2,7 @@
 # Site settings
 title: 小五
 SEOTitle: 小五的博客 | 5Mall Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg2.jpg
 email: zhangwei-baba@163.com
 description: "fake it till you make it!"
 keyword: "小五，5mall"
@@ -86,7 +86,7 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "我的简书个人页面",
+        title: "我的简书",
         href: "https://www.jianshu.com/u/b9cbfe0a7f35"
     }
 ]
