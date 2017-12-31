@@ -60,7 +60,7 @@ disqus_username: 5Mall
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: '75a81f914f513282314a23f5b9d22670'
+ba_track_id: 75a81f914f513282314a23f5b9d22670
 # Google Analytics
 ga_track_id: 'UA-111749382-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
