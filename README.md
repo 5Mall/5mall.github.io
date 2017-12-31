@@ -1,9 +1,5 @@
-# HuxBlog Boilerplate
+#小五的个人博客
 
-##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+该博客使用的是[Hux Blog](https://github.com/Huxpro/huxpro.github.io)的模板  
+所有相关文档资料请点击 ：http://huangxuan.me/huxblog-boilerplate/
 
-#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
-
-#### [View Live Hux Blog &rarr;](http://huangxuan.me)
-
-## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
