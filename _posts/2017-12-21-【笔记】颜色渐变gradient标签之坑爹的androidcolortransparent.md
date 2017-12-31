@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "颜色渐变<gradient>标签之坑爹的 @android:color/transparent"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"Belongs to Android\""
 date:       2017-12-21 11:30:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
@@ -50,7 +50,7 @@ tags:
 现在，看着这个颜色渐变过程演示图，大家是不是立马豁然开朗，茅塞顿开呀 哈哈
 [小五][]童鞋的代码之所以有**黑灰色杂质**，就是因为坑爹的**`@android:color/transparent `**虽然是全透明的，但却是一个**黑色的全透明**，而代码中的绿色`#27ae60`[^注释]到**`#00000000`**的渐变过程中，其对应的RGB也在变化，绿色`#27ae60`[^注释]的Alpha值是到颜色渐变的最后才变为0的， 也就是中间的颜色渐变过程中Alpha并不等于0，因此颜色渐变的各个阶段所对应呈现出来的颜色效果最终都会**参杂着RGB数值变化带来的颜色污染**，就像这里的**黑灰色杂质**。
 
-##所以，[小五][]童鞋该怎么做，才能实现想要的效果？
+## 所以，[小五][]童鞋该怎么做，才能实现想要的效果？
 >扫地僧：**控制色域变化范围**
 
 也就是只让ARGB中的A变化，其余的RGB保持不变！一言不合上代码：
@@ -69,7 +69,7 @@ tags:
 
 ![小五想要的效果图](http://upload-images.jianshu.io/upload_images/2378059-dc99e7703ba547e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###OL ! 就酱紫吧，希望对大家有所帮助，如果喜欢，不要小气，给个呗！
+### OL ! 就酱紫吧，希望对大家有所帮助，如果喜欢，不要小气，给个呗！
 
 [^注脚]: **ARGB**分别代表***Alpha*** 和 ***Red*** 、***Green*** 、***Blue*** 四种色彩空间
 [^注释]: `#27ae60`中缺失的Alpha值会自动用FF补全，也就是`#FF27ae60`

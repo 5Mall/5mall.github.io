@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "什么？！Github也可以用来搭建个人Maven仓库？"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"Belongs to 教程\""
 date:       2017-12-15 17:00:00
 author:     "小五"
 header-img: "img/home_bg.jpg"
@@ -24,7 +24,7 @@ tags:
 
 ------
 
-##**OL，完事了？NO！难道你就不想自己实现一个[JitPack][]？**
+## **OL，完事了？NO！难道你就不想自己实现一个[JitPack][]？**
 
 
 ​        哈哈，别紧张，我说的不是让大家自己建一个[JitPack][]网站，我的意思是我们能不能像[JitPack][]一样利用[Github][]来搭建一个属于自己的Maven仓库...因为如果万一...[JitPack][]挂掉了（呃，我咋这么坏 哈哈 ）我们也有个备份选择不是 。

@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "【笔记】Django Model类下，Field字段中，choice属性有个坑！"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"Belongs to Python\""
 date:       2017-12-26 20:12:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
@@ -19,7 +19,7 @@ tags:
 
 >于是，掉坑之旅了开始
 
-###鄙人不才，于某日一个神志不清的下午写下了如下代码：
+### 鄙人不才，于某日一个神志不清的下午写下了如下代码：
 
 ```Python
 
@@ -44,13 +44,13 @@ class ActApplicant(Model):
 ```
 细心的童鞋可能已经发现了代码的问题，啧啧啧，好吧，塞心仔，这篇文章可能不适合你们...
 **什么！？你左看右看上看下看就是没发现有啥不对，**哈哈 ，看来我并不孤独呐，如果你是后者，那这篇文章简直就是为你而写啊！ 
-###苦逼回忆开始...
+### 苦逼回忆开始...
 
 ---
 那天写完上面代码之后接下来的整整三个多小时里，我被一个奇怪的现象困扰，在执行数据库同步变更操作的时候，这个表竟然一直提示有变动，而通常情况下我们在执行`python manage.py makemigrations`命令之后继续重复执行该命令就会提示`No changes detected ` 
 ![没完没了的提示有变动](http://upload-images.jianshu.io/upload_images/2378059-e2f465f04fcd0ace.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###最终，在`“小样儿，我还治不了你了"`的精神力驱动下，顽强滴我选择了`一个字一个字`去`死抠代码`
+### 最终，在`“小样儿，我还治不了你了"`的精神力驱动下，顽强滴我选择了`一个字一个字`去`死抠代码`
 
 ---
 咦~~ 这里的`status_choice`怎么是个花括号，记得好像应该是圆括号啊，改过来试试....**改完执行**`python manage.py makemigrations` ，嗯，还是提示有变化，再执行，`No changes detected `   **什么？！就这样好了 !!!** 

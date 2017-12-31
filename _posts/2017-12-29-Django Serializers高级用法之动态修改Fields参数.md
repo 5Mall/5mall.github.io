@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      " Django Serializers高级用法之动态修改Fields参数"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"Belongs to Python\""
 date:       2017-12-29 16:58:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
@@ -9,9 +9,8 @@ tags:
     - Python
 ---
 
-##Django Serializers高级用法之动态修改Fields参数
 
-###一言不合，上代码
+### 一言不合，上代码
 
 ```python
 class SlidesSerializer(serializers.ModelSerializer):
@@ -38,7 +37,8 @@ class SlidesLiteSerializer(serializers.ModelSerializer):
         fields = ('id', 'title','image',)
 ```
 
-##额，好像有点Low...
+## 额，好像有点Low...
+
 ---
 的确，怎么可以则个样子啊，虽然也能解决问题，但要是再来个需要`id`与其它四个字段分别俩俩搭配的需求，岂不是又得整一堆Serializer...  
 作为一个有点强迫症的码农，我表示不能忍啊  
@@ -78,7 +78,7 @@ class SlidesSerializer(serializers.ModelSerializer):
 >>> print SlidesSerializer(sides, fields=('id', 'title','image'))
 {'id': 2, 'title': '道地良品', 'image': '/daodi.png'}
 ```
-##Nice！！！
+## Nice！！！
 
 >**Ps：**建议将构造器部分代码实现放置于基类*Serializer*，然后将Model类对应的**Serializer**实现类继承该基类，酱紫，所有继承该基类的**Serializer**均能实现**Fields参数**的动态修改
 
