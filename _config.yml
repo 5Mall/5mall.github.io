@@ -83,10 +83,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "我的简书",
+        title: "jianshu",
         href: "https://www.jianshu.com/u/b9cbfe0a7f35"
     }
 ]
