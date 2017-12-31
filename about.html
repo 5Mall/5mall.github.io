@@ -1,108 +1,28 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is 5Mall."
-header-img: "img/about_bg.jpeg"
+description: "Hey, this is Hux."
+header-img: "img/about-bg-walle.jpg"
+multilingual: true
 ---
 
 <!-- Language Selector -->
-<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 </option>
-    <option value="1"> English </option>
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
 </select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-    <blockquote>
-        热爱生活，热爱coding
-    </blockquote>
-    - 闷骚靠谱爱笑的smart阳光boy </br>
-    - 最近迷上用Markdown写作的感觉，感觉有种停不下的节奏...</br>
-    - 喜欢工作带来的充实感(谁叫我是单身汪T_T)，热爱学习，自认学习能力还不错，最近刚现学现用利用Python爬虫帮公司负责文案/策划的哥们从网上抓了几个网站的数据，对方对我很是崇拜啊 哈哈</br>
-    - 热爱运动，因为我不想也不能再胖下去了 ！plus: 滑雪是最爱、篮球是青春、乒乓球是童年 当然，羽毛球和桌球也还是可以的</br>
-    - 做梦都想能和大牛们一起工作，感觉这样才能进步飞快。</br>
-    - 希望能找到一家能让自己有归属感的公司、可以为我们提供各种有价值的培训学习机会</br>
-    - 听说有些公司还有漂亮得不要不要的程序员鼓励师，我也想去  哈哈</br>
-
-    <p style="text-align:right;">
-        —— <a href="https://www.jianshu.com/u/b9cbfe0a7f35">快来看看我的简书吧 </a>
-    </p>
-
+    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
 </div>
 
 <!-- English Version -->
 <div class="en post-container">
-    <blockquote>
-        Designer or Engineer, things in between.
-    </blockquote>
-
-    <p>
-        Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.
-    </p>
-
-    <p>
-    If you want to live your life in a creative way, as an artist, you have to not look back too much. You have to be willing to take whatever you’ve done and whoever you were and throw them away.
-    </p>
-
-    <p style="text-align:right;">
-    -- Steve Jobs
-    </p>
-
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
 </div>
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    function onLanChange(index){
-        if(index == 0){
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        }
-    }
-    onLanChange(0);
-</script>
-
-
-
-{% if site.duoshuo_username %}
-<!-- 多说评论框 start -->
-<div class="comment">
-    <div class="ds-thread"
-    {% if site.duoshuo_username =="huxblog" %}
-        data-thread-id="1187623191091085319"
-    {% else %}
-        data-thread-key="{{site.duoshuo_username}}/about"
-    {% endif %}
-
-    data-title="{{page.title}}"
-    data-url="{{site.url}}/about/"></div>
-</div>
-<!-- 多说评论框 end -->
-
-<!-- Duoshuo hacking -->
-<input id="dsUser" type="hidden" value="{{site.duoshuo_username}}"  />
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    // dynamic User hacking by Hux
-    var _user = document.getElementById('dsUser').value;
-    // duoshuo comment query.
-    var duoshuoQuery = {short_name: _user };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0]
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-</script>
-<!-- 多说公共JS代码 end -->
-{% endif %}
 
 
 {% if site.disqus_username %}
