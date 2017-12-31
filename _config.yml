@@ -5,7 +5,7 @@ SEOTitle: 小五的博客 | 5Mall's Blog
 header-img: img/home_bg3.jpeg
 email: zhangwei-baba@163.com
 description: "fake it till you make it!"
-keyword: "小五，5mall"
+keyword: "小五，5mall，@小五，@5Mall，小五的博客，5Mall's Blog"
 url: "http://walkermanx.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -18,16 +18,17 @@ weibo_username:     	walkermanX
 github_username:    	walkermanx
 #twitter_username:  	walkermanx
 #facebook_username:  	walkermanx
+# linkedin_username:  firstname-lastname-idxxxx
 
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for # highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true                          # if you want to customize anchor. check 
 
 
 
@@ -50,17 +51,16 @@ kramdown:
 # Disqus settings
 disqus_username: 5Mall
 
-# Duoshuo settings
-#duoshuo_username: walkermanx
-# Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# Netease setttings
+
+netease_comment: false
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 75a81f914f513282314a23f5b9d22670
+# ba_track_id: 75a81f914f513282314a23f5b9d22670
 # Google Analytics
 ga_track_id: 'UA-111749382-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
@@ -70,7 +70,7 @@ ga_domain: auto  # 默认的是 auto, 这里我是自定义了的域名，你如
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "闷骚靠谱爱笑的smart阳光boy"
-sidebar-avatar: /img/avatar_5mall.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_5mall.png      # use absolute URL, seeing it's used in 
 
 
 
@@ -78,16 +78,19 @@ sidebar-avatar: /img/avatar_5mall.png      # use absolute URL, seeing it's used 
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
+# Progressive Web Apps
+
+chrome-tab-theme-color: "#000000"
+
+service-worker: true
 
 
 # Friends
 friends: [
     {
-        title: "jianshu",
+        title: "简书",
         href: "https://www.jianshu.com/u/b9cbfe0a7f35"
     }
 ]
 
 
-
-theme: jekyll-theme-cayman
