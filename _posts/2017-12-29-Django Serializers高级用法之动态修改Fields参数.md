@@ -2,7 +2,7 @@
 layout:     post
 title:      " Django Serializers高级用法之动态修改Fields参数"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
+date:       2017-12-29 16:58:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
 tags:

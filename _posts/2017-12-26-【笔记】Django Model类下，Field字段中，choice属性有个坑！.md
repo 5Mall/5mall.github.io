@@ -2,7 +2,7 @@
 layout:     post
 title:      "【笔记】Django Model类下，Field字段中，choice属性有个坑！"
 subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
+date:       2017-12-26 20:12:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
 tags:
