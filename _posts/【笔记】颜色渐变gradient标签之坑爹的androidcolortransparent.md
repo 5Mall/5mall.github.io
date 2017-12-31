@@ -6,7 +6,7 @@ date:       2015-01-29 12:00:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Python
+    - Android
 ---
 
 ## 颜色渐变<gradient>标签之坑爹的 @android:color/transparent

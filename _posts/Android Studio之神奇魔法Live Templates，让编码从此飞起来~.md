@@ -6,7 +6,7 @@ date:       2015-01-29 12:00:00
 author:     "小五"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - Python
+    - Android
 ---
 ## Android Studio之神奇魔法Live Templates，让编码从此飞起来~
 
