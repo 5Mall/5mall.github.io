@@ -2,7 +2,7 @@
 # Site settings
 title: 小五
 SEOTitle: 小五的博客 | 5Mall Blog
-header-img: img/home-bg2.jpg
+header-img: img/home_bg2.jpeg
 email: zhangwei-baba@163.com
 description: "fake it till you make it!"
 keyword: "小五，5mall"
@@ -60,7 +60,7 @@ disqus_username: 5Mall
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 75a81f914f513282314a23f5b9d22670
+ba_track_id: '75a81f914f513282314a23f5b9d22670'
 # Google Analytics
 ga_track_id: 'UA-111749382-1'            # Format: UA-xxxxxx-xx
 ga_domain: auto  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
