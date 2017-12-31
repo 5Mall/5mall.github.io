@@ -1,0 +1,91 @@
+# Site settings
+title: 小五
+SEOTitle: 小五的博客 | 5Mall Blog
+header-img: img/home-bg.jpg
+email: zhangwei-baba@163.com
+description: "fake it till you make it!"
+keyword: "小五，5mall"
+url: "http://walkermanx.github.io"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     walkermanX
+#zhihu_username:     walkermanx
+github_username:    walkermanx
+#twitter_username:  walkermanx
+#facebook_username:  walkermanx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: 5Mall
+
+# Duoshuo settings
+#duoshuo_username: walkermanx
+# Share component is depend on Comment so we can NOT use share only.
+#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 75a81f914f513282314a23f5b9d22670
+# Google Analytics
+ga_track_id: 'UA-111749382-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "闷骚靠谱爱笑的smart阳光boy"
+sidebar-avatar: /img/avatar_5mall.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "我的简书个人页面",
+        href: "https://www.jianshu.com/u/b9cbfe0a7f35"
+    }
+]
