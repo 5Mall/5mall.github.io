@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      " 【布局优化】喂！住在xml里的fragment，我要"replace"掉你！"
+title:      " 【布局优化】喂！住在xml里的fragment，我要\"replace\"掉你！"
 subtitle:   " \"Belongs to Android\""
 date:       2018-02-02 19:51:00
 author:     "小五"
