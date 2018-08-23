@@ -27,6 +27,9 @@
 -  [Abstractlistadapters](https://github.com/walkermanx/abstractlistadapters)：简单的列表控件数据适配器
    该适配器可为`ListView`、`GridView`、`RecyclerView`提供数据适配，通过使用抽象类和`java`泛型机制继承传统适配器类，将重复性代码整体封装，在保存`ViewHolder`缓存机制的前提下，将适配器的核心功能代码逻辑剥离，使得我们只需要通过编写继承于`BaseItemView<T>`的派生类即可完成数据的适配。大大减少了冗余代码的编写工作，让我们能将时间和精力聚焦于核心业务逻辑的编写从而提高编码效率。
 
+-  [PhotoPicker](https://github.com/walkermanx/PhotoPicker)：Android图片选择器 (仿微信图片选择器)
+   一款Android图片选择器，支持直接拍照、拍照并裁剪、单选裁剪、图片多选、图片放大预览、裁剪比例设置等，满足APP图片拍照、选择等模块需求。
+
    >才开始梳理，后续还会有更多...
 
 
